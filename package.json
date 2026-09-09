@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "dev": "vite",
+    "api": "json-server --watch db.json --port 3001",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "axios": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "@tailwindcss/vite": "latest",
+    "zustand": "latest",
+    "json-server": "latest"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,100 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "customer": {
+        "name": "Rahul Sharma",
+        "email": "rahul@example.com",
+        "phone": "+91 9876543210"
+      },
+      "subject": "Unable to login to my account",
+      "description": "I am unable to login to my account even after resetting my password. The system keeps showing an invalid credentials error.",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-09-08T10:30:00Z",
+      "messages": [
+        {
+          "sender": "Rahul Sharma",
+          "message": "I am unable to login to my account.",
+          "time": "2026-09-08T10:30:00Z"
+        },
+        {
+          "sender": "Support",
+          "message": "We are looking into this issue.",
+          "time": "2026-09-08T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "customer": {
+        "name": "Priya Singh",
+        "email": "priya@example.com",
+        "phone": "+91 9123456789"
+      },
+      "subject": "Payment failed",
+      "description": "My payment was deducted from my bank account but the order is still showing as pending.",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-09-07T14:20:00Z",
+      "messages": [
+        {
+          "sender": "Priya Singh",
+          "message": "The amount has been deducted but my order is pending.",
+          "time": "2026-09-07T14:20:00Z"
+        },
+        {
+          "sender": "Support",
+          "message": "We have escalated this issue to our payment team.",
+          "time": "2026-09-07T15:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "customer": {
+        "name": "Amit Verma",
+        "email": "amit@example.com",
+        "phone": "+91 9988776655"
+      },
+      "subject": "How can I change my email?",
+      "description": "I want to change the email address associated with my account.",
+      "priority": "Low",
+      "status": "Open",
+      "createdAt": "2026-09-06T09:15:00Z",
+      "messages": [
+        {
+          "sender": "Amit Verma",
+          "message": "How can I change my email?",
+          "time": "2026-09-06T09:15:00Z"
+        },
+        {
+          "sender": "Support",
+          "message": "You can change it from Account Settings.",
+          "time": "2026-09-06T09:40:00Z"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "customer": {
+        "name": "Neha Gupta",
+        "email": "neha@example.com",
+        "phone": "+91 9876501234"
+      },
+      "subject": "Refund not received",
+      "description": "My refund was processed several days ago but I have not received the money yet.",
+      "priority": "Medium",
+      "status": "Open",
+      "createdAt": "2026-09-05T12:45:00Z",
+      "messages": [
+        {
+          "sender": "Neha Gupta",
+          "message": "I haven't received my refund yet.",
+          "time": "2026-09-05T12:45:00Z"
+        }
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
